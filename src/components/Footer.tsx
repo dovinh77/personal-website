@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
 
   return (
     <FooterContainer>
-      <Copyright>© {new Date().getFullYear()} Vinay Kulkarni. All rights reserved.</Copyright>
+      <Copyright> {new Date().getFullYear()} Vinh Do. All rights reserved.</Copyright>
       {showScroll && (
         <ScrollToTop 
           onClick={() => scroll.scrollToTop({ duration: 500, smooth: true })}

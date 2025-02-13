@@ -160,36 +160,31 @@ const Experience: React.FC = () => {
 
   const experiences = [
     {
-      company: 'The Iconic',
-      title: 'Data Engineer',
-      duration: '2017 - 2019',
-      description: [
-        'Built and maintained data pipelines for e-commerce analytics',
-        'Implemented real-time data processing solutions',
-        'Developed automated reporting systems',
-        'Collaborated with cross-functional teams to deliver data solutions',
-      ],
-    },
-    {
-      company: 'REA Group',
-      title: 'Senior Data Engineer',
-      duration: '2019 - 2021',
-      description: [
-        'Developed and maintained ETL/ELT pipelines using Apache Spark and Python',
-        'Implemented data quality monitoring and testing frameworks',
-        'Collaborated with data scientists to productionize ML models',
-        'Optimized database performance and query execution',
-      ],
-    },
-    {
       company: 'WISR',
-      title: 'Lead Data Engineer',
-      duration: '2021 - Present',
+      title: 'Head of Information Technology',
+      duration: 'Dec 2020 – Present',
       description: [
-        'Lead a team of data engineers in developing and maintaining data pipelines',
-        'Design and implement data architecture solutions using AWS and Snowflake',
-        'Establish data engineering best practices and coding standards',
-        'Mentor junior engineers and provide technical leadership',
+        'Lead the work and successful submission of CDR (Consumer Data Rights) Open Banking to the ACCC.',
+        'Successfully implemented security controls, rolling out CIS18 cybersecurity framework.',
+        'Successfully ran cyber security attack simulation to the Wisr Board.',
+        'Successful Implementation and integration of a new IVR system, Amazon Connect.',
+        'Cost optimisation measures, contract negotiation of software and applications saving Wisr approx. $200k.',
+      ],
+    },
+    {
+      company: 'Skretting Australia',
+      title: 'Business IT Manager',
+      duration: 'Nov 2018 – Dec 2020',
+      description: [
+        'Implementation of IT infrastructure and rollout of M3 ERP to a new site in Westbury TAS...',
+      ],
+    },
+    {
+      company: 'ICT Innovations Pty Ltd',
+      title: 'Business and Technology Consultant',
+      duration: 'Oct 2015 – Nov 2018',
+      description: [
+        'Successfully implemented Salesforce to Redback Conferencing...',
       ],
     },
   ];

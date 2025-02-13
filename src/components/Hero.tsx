@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const HeroSection = styled.section`
   background: radial-gradient(circle at top right, rgba(100, 255, 218, 0.1), transparent),
@@ -38,32 +38,6 @@ const ProfileContainer = styled.div`
   gap: calc(var(--spacing) * 2);
   justify-content: center;
   flex-wrap: wrap;
-`;
-
-const ProfileImageContainer = styled.div`
-  flex-shrink: 0;
-`;
-
-const ProfileImage = styled.img`
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid rgba(100, 255, 218, 0.3);
-  box-shadow: 0 0 20px rgba(100, 255, 218, 0.15);
-  transition: all 0.3s ease;
-  filter: brightness(1.05) contrast(1.05);
-
-  &:hover {
-    transform: scale(1.02) translateY(-5px);
-    border-color: var(--secondary-color);
-    box-shadow: 0 10px 30px rgba(100, 255, 218, 0.2);
-  }
-
-  @media (max-width: 768px) {
-    width: 200px;
-    height: 200px;
-  }
 `;
 
 const ProfileContent = styled.div`
@@ -175,11 +149,6 @@ const SocialLink = styled.a`
     }
   }
 
-  &.github:hover {
-    background: rgba(36, 41, 46, 0.9);
-    box-shadow: 0 8px 20px rgba(36, 41, 46, 0.2);
-  }
-
   &.linkedin:hover {
     background: rgba(0, 119, 181, 0.9);
     box-shadow: 0 8px 20px rgba(0, 119, 181, 0.2);
@@ -191,42 +160,16 @@ const Hero: React.FC = () => {
     <HeroSection id="about">
       <Container>
         <ProfileContainer>
-          <ProfileImageContainer>
-            <ProfileImage src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Vinay Kulkarni" />
-          </ProfileImageContainer>
           <ProfileContent>
-            <Title>Data & Technology Leader</Title>
+            <Title>Head of Information Technology</Title>
             <Tagline>
               <p>
-                Versatile technology leader with 15+ years of expertise spanning <strong>data engineering</strong>,
-                <strong>analytics</strong>, and <strong>artificial intelligence</strong>. Proven track record of
-                building high-impact data solutions at <strong>WISR</strong>, <strong>REA Group</strong>,
-                and <strong>The Iconic</strong>.
-              </p>
-              <p>
-                Comprehensive expertise in <strong>data architecture</strong>, <strong>cloud platforms</strong>,
-                and <strong>machine learning operations</strong>. Successfully bridging technical excellence
-                with business strategy to deliver scalable solutions that drive innovation and growth.
-                Strong focus on <strong>data quality</strong> and <strong>engineering best practices</strong>.
-              </p>
-              <p>
-                Currently spearheading strategic initiatives in <strong>data platform modernization</strong>,
-                <strong>team development</strong>, and <strong>data-driven transformation</strong>. Passionate about
-                fostering a culture of innovation and mentoring the next generation of data leaders.
+                Employed by global leading multinationals and national corporations, I have led teams through a variety of agile enterprise projects, facilitating effective change management, successfully delivering enterprise architecture and cross-functional technological solutions. I am dedicated to ensuring the success of my employer organization through strategic alignment of business operations with the dynamic ICT landscape. I am a diligent and confident professional who through experientially derived insight, analytical prowess and interpersonal skills has facilitated significant improvements in all business facets.
               </p>
             </Tagline>
             <SocialLinks>
               <SocialLink
-                href="https://github.com/vincyf1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="github"
-              >
-                <FontAwesomeIcon icon={faGithub} />
-                <span>GitHub</span>
-              </SocialLink>
-              <SocialLink
-                href="https://www.linkedin.com/in/vinayskulkarni/"
+                href="https://www.linkedin.com/in/do_vinh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="linkedin"

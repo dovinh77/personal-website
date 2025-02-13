@@ -93,7 +93,7 @@ const Header: React.FC = () => {
   return (
     <HeaderContainer>
       <NavContent>
-        <h1>Vinay Kulkarni</h1>
+        <h1>Vinh Do</h1>
         <NavLinks>
           <NavLink
             to="about"
