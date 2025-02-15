@@ -164,6 +164,14 @@ const Experience: React.FC = () => {
       title: 'Head of Information Technology',
       duration: 'Dec 2020 – Present',
       description: [
+        'Management of technical operations, optimising business IT processes and efficiency whilst adhering to best practices.',
+        'Develop IT strategy, set OKRs, maintain IT budget, contract negotiations for all software.',
+        'IT security and governance. Managing effective cyber security measures to minimise risks, ensuring that the business is aligned and adheres to the CIS18 framework.',
+        'Lead cybersecurity squad within Wisr. Manage the program for ISO27001:2022 certification.',
+        'Liaise with all internal stakeholders, manage third party vendors to ensure maximum effectiveness of IT operations.',
+        'Analyse the business requirements of all departments to decide their technological needs whilst focusing on cost optimisation. Where required, upgrade, replace IT assets and business systems.',
+        'Increasing end user satisfaction levels by constantly improving IT support and the tech stack.',
+        'Management of the tech stack including but not limited to Microsoft Azure, Google Workspace, Amazon.',
         'Lead the work and successful submission of CDR (Consumer Data Rights) Open Banking to the ACCC.',
         'Successfully implemented security controls, rolling out CIS18 cybersecurity framework.',
         'Successfully ran cyber security attack simulation to the Wisr Board.',
@@ -176,7 +184,16 @@ const Experience: React.FC = () => {
       title: 'Business IT Manager',
       duration: 'Nov 2018 – Dec 2020',
       description: [
-        'Implementation of IT infrastructure and rollout of M3 ERP to a new site in Westbury TAS...',
+        'Implementation of IT infrastructure and rollout of M3 ERP to a new site in Westbury TAS',
+        'Develop IT Strategy and implement 8Q Roadmap.',
+        'Local owner of IT solutions.',
+        'Accountable for the business IT program to deliver IT projects in line with the global strategy.',
+        'Responsible for setting and managing the IT budget.',
+        'Contract negotiations with third party vendors.',
+        'Managing the inventory of IT assets, hardware, software.',
+        'Develop and maintain compliance, business continuity plan and disaster recovery.',
+        'Document and maintain key IT risk management controls and best practices.',
+        'Responsible for Infor M3 ERP. From implementation of M3 Unite to all departments including the training of users, developing policies and procedures through to troubleshooting any related general, software and user issues.',
       ],
     },
     {
@@ -184,7 +201,9 @@ const Experience: React.FC = () => {
       title: 'Business and Technology Consultant',
       duration: 'Oct 2015 – Nov 2018',
       description: [
-        'Successfully implemented Salesforce to Redback Conferencing...',
+        'Successfully implemented Salesforce to Redback Conferencing and vehiclesales.com.au.',
+        'Successfully delivered the ERA SEER 2018 submission to the Australian Research Council.',
+        'Successfully delivered IBM Cognos TM1 student load and fee revenue planning system for UTS.',
       ],
     },
   ];

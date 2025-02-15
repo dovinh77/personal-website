@@ -149,8 +149,6 @@ const SkillItem = styled.li`
   }
 `;
 
-
-
 const Skills: React.FC = () => {
   const [openCategory, setOpenCategory] = React.useState<string | null>(null);
 
@@ -160,38 +158,42 @@ const Skills: React.FC = () => {
 
   const skillsData = {
     'Core Competencies': [
-      'Data Engineering',
-      'Data Architecture',
-      'Database Administration',
-      'ETL/ELT Development',
-      'Data Modeling',
-      'Data Warehousing',
+      'Strategic thinking',
+      'Leadership and team management',
+      'Communication skills',
+      'Problem-solving and decision-making',
+      'Technical expertise',
+      'Change management',
+      'Project management',
+      'Financial management',
+      'Risk management and security',
+      'Business acumen',
+      'Innovation and adaptability',
     ],
     'Technologies': [
-      'Python',
-      'SQL',
-      'Apache Spark',
-      'AWS',
-      'Snowflake',
-      'PostgreSQL',
-      'Oracle',
-      'dbt',
-      'Airflow',
+      'Operating Systems: Windows, Mac',
+      'Cloud Computing Services: Microsoft Azure, AWS, Google Cloud',
+      'Database Management: Microsoft SQL Server, Aginity Redshift',
+      'CRM: Salesforce.com, Microsoft Dynamics, Zoho CRM',
+      'ERP: Infor M3, SAP R3',
+      'Service Management: ServiceNow, Salesforce Service Cloud',
+      'Financial/Commercial: Oracle EBS, Hyperion, Cognos TM1',
+      'Marketing Automation: Eloqua, Marketo, Salesforce Marketing Cloud',
+      'Project Management: Jira, Monday.com, MS Project',
+      'Business Intelligence: Power BI, Tableau, Cognos TM1',
+      'Productivity Applications: Google Workspace, Microsoft Office 365',
     ],
-    'Specializations': [
-      'Data Pipeline Design',
-      'Performance Optimization',
-      'Data Quality Management',
-      'Cloud Architecture',
-      'Team Leadership',
-      'Agile Methodologies',
+    'Specialisations': [
+      'Team Leadership, Mentoring and Coaching',
+      'Project Management',
+      '',
     ],
   };
 
   return (
     <SkillsSection id="skills">
       <Container>
-        <SectionTitle>Skills</SectionTitle>
+        <SectionTitle>Technical Skills – Systems and Applications</SectionTitle>
         <SkillsGrid>
           {Object.entries(skillsData).map(([category, skills]) => (
             <SkillCategory key={category} isOpen={openCategory === category}>
