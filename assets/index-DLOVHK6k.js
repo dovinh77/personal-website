@@ -731,9 +731,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   margin: 0 auto;
   padding: 0 var(--spacing);
 `,G2=gt.img`
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
   border: 3px solid var(--secondary-color);
   margin-right: calc(var(--spacing) * 2);
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
@@ -977,7 +979,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   &:hover {
     color: var(--text-primary);
   }
-`,i5=()=>{const[l,u]=ve.useState(null),f=s=>{u(d=>d===s?null:s)},c={"Core Competencies":["Strategic thinking","Leadership and team management","Communication skills","Problem-solving and decision-making","Technical expertise","Change management","Project management","Financial management","Risk management and security","Business acumen","Innovation and adaptability"],Technologies:["Operating Systems: Windows, Mac","AI Tools: Windsurf, OpenAI","Cloud Computing Services: Microsoft Azure, AWS, Google Cloud","Database Management: Microsoft SQL Server, Aginity Redshift","CRM: Salesforce.com, Microsoft Dynamics, Zoho CRM","ERP: Infor M3, SAP R3","Project Management: Jira, Monday.com, MS Project","Business Intelligence: Power BI, Tableau, Cognos TM1"],Specialisations:["Team Leadership, Mentoring and Coaching","Project Management","Cybersecurity"]};return nt.jsx(F2,{id:"skills",children:nt.jsxs(P2,{children:[nt.jsx($2,{children:"Technical Skills – Systems and Applications"}),nt.jsx(I2,{children:Object.entries(c).map(([s,d])=>nt.jsxs(t5,{isOpen:l===s,children:[nt.jsx(e5,{onClick:()=>f(s),children:nt.jsx(n5,{children:s})}),nt.jsx(a5,{isOpen:l===s,children:d.map(p=>nt.jsx(l5,{children:p},p))})]},s))})]})})},u5=gt.section`
+`,i5=()=>{const[l,u]=ve.useState(null),f=s=>{u(d=>d===s?null:s)},c={"Core Competencies":["Strategic thinking","Leadership and team management","Communication skills","Problem-solving and decision-making","Technical expertise","Change management","Project management","Financial management","Risk management and security","Business acumen","Innovation and adaptability"],Technologies:["Operating Systems: Windows, Mac","AI Tools: Windsurf, OpenAI","Cloud Computing Services: Microsoft Azure, AWS, Google Cloud","Database Management: Microsoft SQL Server, Aginity Redshift","CRM: Salesforce.com, Microsoft Dynamics, Zoho CRM","ERP: Infor M3, SAP R3","Project Management: Jira, Monday.com, MS Project","Business Intelligence: Power BI, Tableau, Cognos TM1"]};return nt.jsx(F2,{id:"skills",children:nt.jsxs(P2,{children:[nt.jsx($2,{children:"Technical Skills – Systems and Applications"}),nt.jsx(I2,{children:Object.entries(c).map(([s,d])=>nt.jsxs(t5,{isOpen:l===s,children:[nt.jsx(e5,{onClick:()=>f(s),children:nt.jsx(n5,{children:s})}),nt.jsx(a5,{isOpen:l===s,children:d.map(p=>nt.jsx(l5,{children:p},p))})]},s))})]})})},u5=gt.section`
   padding: calc(var(--spacing) * 6) 0;
   background: linear-gradient(135deg, var(--background) 0%, var(--background-light) 100%);
   min-height: 100vh;
