@@ -1,6 +1,6 @@
 # Personal Website
 
-A modern, responsive personal website built with React, TypeScript, and Vite. View it live at [vincyf1.github.io/personal-website](https://vincyf1.github.io/personal-website)
+A modern, responsive personal website built with React, TypeScript, and Vite. 
 
 ## Features
 
