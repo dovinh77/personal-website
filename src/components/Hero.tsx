@@ -11,6 +11,7 @@ const HeroSection = styled.section`
   margin-top: 70px;
   min-height: calc(100vh - 70px);
   display: flex;
+  flex-direction: row;
   align-items: center;
   position: relative;
   overflow: hidden;
@@ -169,7 +170,7 @@ const Hero: React.FC = () => {
             </Tagline>
             <SocialLinks>
               <SocialLink
-                href="https://www.linkedin.com/in/do_vinh/"
+                href="https://www.linkedin.com/in/do-vinh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="linkedin"
