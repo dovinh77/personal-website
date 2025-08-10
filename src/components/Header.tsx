@@ -7,6 +7,7 @@ const HeaderContainer = styled.header`
   color: white;
   height: 70px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -20,6 +21,7 @@ const HeaderContainer = styled.header`
 
 const NavContent = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
@@ -41,7 +43,7 @@ const NavLinks = styled.div`
   position: relative;
 
   @media (max-width: 768px) {
-    flex-direction: row;
+    flex-direction: column;
     gap: 1rem;
   }
 `;
