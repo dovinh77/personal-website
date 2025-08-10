@@ -161,7 +161,7 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       company: 'WISR',
-      title: 'Head of Information Technology',
+      title: 'Head of Technology',
       duration: 'Dec 2020 – Present',
       description: [
         'Management of technical operations, optimising business IT processes and efficiency whilst adhering to best practices.',
