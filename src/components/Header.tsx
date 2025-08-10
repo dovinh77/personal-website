@@ -29,7 +29,7 @@ const NavContent = styled.div`
   transition: all 0.3s ease;
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     gap: 1rem;
   }
