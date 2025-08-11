@@ -88,7 +88,7 @@ Error generating stack: `+n.message+`
 `,mf=vt(u0.Link)`
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   cursor: pointer;
   padding: 0.5rem 1rem;
   border-radius: 8px;
@@ -126,7 +126,7 @@ Error generating stack: `+n.message+`
       background: linear-gradient(90deg, transparent, var(--secondary-color), transparent);
     }
   }
-`,Hb=()=>ut.jsx(Nb,{children:ut.jsxs(Ub,{children:[ut.jsx("h1",{children:"Vinh Do"}),ut.jsxs(jb,{children:[ut.jsx(mf,{to:"about",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"About"}),ut.jsx(mf,{to:"skills",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"Skills"}),ut.jsx(mf,{to:"experience",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"Experience"})]})]})});/*!
+`,Hb=()=>ut.jsx(Nb,{children:ut.jsx(Ub,{children:ut.jsxs(jb,{children:[ut.jsx(mf,{to:"about",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"About"}),ut.jsx(mf,{to:"skills",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"Skills"}),ut.jsx(mf,{to:"experience",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"Experience"})]})})});/*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
