@@ -187,10 +187,11 @@ const Hero: React.FC = () => {
       <Container>
         <ProfileContainer>
         <ProfileImageContainer>
-            <ProfileImage src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Vinay Kulkarni" />
+            <ProfileImage src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Vinh Do" />
           </ProfileImageContainer>
           <ProfileContent>
-            <Title>Head of Technology</Title>
+            <Title>Vinh Do - Head of Technology</Title>
+            <Tagline>
               <p>
                 Employed by global leading multinationals and national corporations, I have led teams through a variety of agile enterprise projects, facilitating effective change management, successfully delivering enterprise architecture and cross-functional technological solutions. I am dedicated to ensuring the success of my employer organization through strategic alignment of business operations with the dynamic ICT landscape. I am a diligent and confident professional who through experientially derived insight, analytical prowess and interpersonal skills has facilitated significant improvements in all business facets.
               </p>

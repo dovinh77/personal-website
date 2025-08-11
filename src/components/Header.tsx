@@ -49,7 +49,7 @@ const NavLinks = styled.div`
 const NavLink = styled(Link)`
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   cursor: pointer;
   padding: 0.5rem 1rem;
   border-radius: 8px;
@@ -93,7 +93,6 @@ const Header: React.FC = () => {
   return (
     <HeaderContainer>
       <NavContent>
-        <h1>Vinh Do</h1>
         <NavLinks>
           <NavLink
             to="about"
