@@ -1,7 +1,7 @@
 {
   "name": "personal-website-react",
   "private": true,
-  "homepage": "https://dovinh77.github.io/personal-website"
+  "homepage": "https://dovinh77.github.io/personal-website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

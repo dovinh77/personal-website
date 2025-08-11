@@ -65,6 +65,14 @@ const ProfileContent = styled.div`
     padding: calc(var(--spacing) * 2);
   }
 `;
+const ProfileImage = styled.img`
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 2rem 0;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.3);
+`;
 
 const Title = styled.h2`
   font-size: 2.8rem;
@@ -163,6 +171,7 @@ const Hero: React.FC = () => {
         <ProfileContainer>
           <ProfileContent>
             <Title>Head of Technology</Title>
+            <ProfileImage src="/profile.jpg" alt="Profile" />
             <Tagline>
               <p>
                 Employed by global leading multinationals and national corporations, I have led teams through a variety of agile enterprise projects, facilitating effective change management, successfully delivering enterprise architecture and cross-functional technological solutions. I am dedicated to ensuring the success of my employer organization through strategic alignment of business operations with the dynamic ICT landscape. I am a diligent and confident professional who through experientially derived insight, analytical prowess and interpersonal skills has facilitated significant improvements in all business facets.
