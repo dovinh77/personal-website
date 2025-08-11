@@ -11,7 +11,6 @@ const HeroSection = styled.section`
   margin-top: 70px;
   min-height: calc(100vh - 70px);
   display: flex;
-  flex-direction: column;
   align-items: center;
   position: relative;
   overflow: hidden;
@@ -41,6 +40,32 @@ const ProfileContainer = styled.div`
   flex-wrap: wrap;
 `;
 
+const ProfileImageContainer = styled.div`
+  flex-shrink: 0;
+`;
+
+const ProfileImage = styled.img`
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(100, 255, 218, 0.3);
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.15);
+  transition: all 0.3s ease;
+  filter: brightness(1.05) contrast(1.05);
+
+  &:hover {
+    transform: scale(1.02) translateY(-5px);
+    border-color: var(--secondary-color);
+    box-shadow: 0 10px 30px rgba(100, 255, 218, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    width: 200px;
+    height: 200px;
+  }
+`;
+
 const ProfileContent = styled.div`
   text-align: left;
   flex: 1;
@@ -64,14 +89,6 @@ const ProfileContent = styled.div`
     margin-top: 2rem;
     padding: calc(var(--spacing) * 2);
   }
-`;
-const ProfileImage = styled.img`
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 2rem 0;
-  border: 3px solid var(--primary-color);
-  box-shadow: 0 0 20px rgba(100, 255, 218, 0.3);
 `;
 
 const Title = styled.h2`
@@ -169,10 +186,11 @@ const Hero: React.FC = () => {
     <HeroSection id="about">
       <Container>
         <ProfileContainer>
+        <ProfileImageContainer>
+            <ProfileImage src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Vinay Kulkarni" />
+          </ProfileImageContainer>
           <ProfileContent>
             <Title>Head of Technology</Title>
-            <ProfileImage src="/profile.jpg" alt="Profile" />
-            <Tagline>
               <p>
                 Employed by global leading multinationals and national corporations, I have led teams through a variety of agile enterprise projects, facilitating effective change management, successfully delivering enterprise architecture and cross-functional technological solutions. I am dedicated to ensuring the success of my employer organization through strategic alignment of business operations with the dynamic ICT landscape. I am a diligent and confident professional who through experientially derived insight, analytical prowess and interpersonal skills has facilitated significant improvements in all business facets.
               </p>
