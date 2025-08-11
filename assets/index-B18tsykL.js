@@ -701,7 +701,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   margin-top: 70px;
   min-height: calc(100vh - 70px);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   position: relative;
   overflow: hidden;
