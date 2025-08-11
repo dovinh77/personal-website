@@ -11,7 +11,7 @@ const HeroSection = styled.section`
   margin-top: 70px;
   min-height: calc(100vh - 70px);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   position: relative;
   overflow: hidden;
