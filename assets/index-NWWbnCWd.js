@@ -106,7 +106,7 @@ Error generating stack: `+n.message+`
     color: var(--secondary-color);
     background: rgba(26, 110, 168, 0.08);
   }
-`,Tb=()=>I.jsx(Eb,{children:I.jsx(_b,{children:I.jsxs(Ob,{children:[I.jsx(df,{to:"about",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"About"}),I.jsx(df,{to:"skills",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"Experience"}),I.jsx(df,{to:"skills",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"Skills"})]})})});/*!
+`,Tb=()=>I.jsx(Eb,{children:I.jsx(_b,{children:I.jsxs(Ob,{children:[I.jsx(df,{to:"about",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"About"}),I.jsx(df,{to:"experience",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"Experience"}),I.jsx(df,{to:"skills",spy:!0,smooth:!0,offset:-80,activeClass:"active",duration:500,isDynamic:!0,spyThrottle:100,hashSpy:!0,children:"Skills"})]})})});/*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
