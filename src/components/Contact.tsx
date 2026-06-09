@@ -138,6 +138,12 @@ const Arrow = styled.span`
   }
 `;
 
+const ResumeIcon = () => (
+  <IconSvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6zm2-5h8v1.5H8V15zm0-3h8v1.5H8V12zm0-3h4v1.5H8V9z"/>
+  </IconSvg>
+);
+
 const EmailIcon = () => (
   <IconSvg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -175,6 +181,15 @@ const Contact: React.FC = () => {
               <ContactDetail>linkedin.com/in/do-vinh</ContactDetail>
             </ContactInfo>
             <Arrow>→</Arrow>
+          </ContactLink>
+
+          <ContactLink href="/personal-website/vinh-do-resume.pdf" download>
+            <IconBox><ResumeIcon /></IconBox>
+            <ContactInfo>
+              <ContactLabel>Resume</ContactLabel>
+              <ContactDetail>Download PDF</ContactDetail>
+            </ContactInfo>
+            <Arrow>↓</Arrow>
           </ContactLink>
         </ContactList>
       </Container>
