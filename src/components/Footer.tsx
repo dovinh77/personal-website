@@ -3,17 +3,17 @@ import styled from 'styled-components';
 import { animateScroll as scroll } from 'react-scroll';
 
 const FooterContainer = styled.footer`
-  padding: calc(var(--spacing) * 2) 0;
+  padding: calc(var(--spacing) * 2.5) 0;
   text-align: center;
   background: var(--background);
   position: relative;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid var(--border-color);
 `;
 
 const Copyright = styled.p`
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
   margin: 0;
 `;
 
@@ -21,25 +21,23 @@ const ScrollToTop = styled.button`
   position: fixed;
   bottom: calc(var(--spacing) * 2);
   right: calc(var(--spacing) * 2);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--secondary-color);
-  font-size: 1.2rem;
+  width: 38px;
+  height: 38px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-color);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
 
   &:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.25);
   }
 
   &:focus {
