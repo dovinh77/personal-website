@@ -698,7 +698,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,I2=at.h1`
   font-size: clamp(3rem, 7vw, 5rem);
   font-weight: 700;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.85);
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin: 0 0 0.6rem;
@@ -717,7 +717,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   margin: 0 0 1.75rem;
 `,n5=at.p`
   font-size: clamp(0.9rem, 1.6vw, 1rem);
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.55);
   max-width: 520px;
   margin: 0 0 2.5rem;
   line-height: 1.8;
